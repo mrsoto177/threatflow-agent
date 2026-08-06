@@ -1,0 +1,20 @@
+{
+  "name": "threatflow-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered security incident triage agent built with Mastra + Anthropic",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mastra/core": "latest",
+    "mastra": "latest",
+    "@ai-sdk/anthropic": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
